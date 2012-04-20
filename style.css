@@ -1,0 +1,100 @@
+@font-face {
+ font-family: ModeSeven;
+ src: url("fonts/ModeSeven.eot") 
+}
+
+@font-face {
+ font-family: ModeSeven;
+ src: url("fonts/ModeSeven.ttf") 
+}
+
+@font-face {
+ font-family: TeleTekst;
+ src: url("fonts/TeleTekst.eot") 
+}
+
+@font-face {
+ font-family: TeleTekst;
+ src: url("fonts/TeleTekst.ttf") 
+}
+
+#header {
+
+	height:50px;
+	padding:6px;
+}
+
+#welcome-logo {
+
+	float:left;
+
+	font-family: TeleTekst, Verdana, Arial, sans-serif;
+	font-size:2.5em;
+	letter-spacing:4px;
+	text-shadow: 4px 4px 0px #0000F8;  
+	color:yellow;
+}
+
+#date-display {
+	position: relative;
+	top: 22px;
+	left: 30px;
+}
+
+#url-form {
+
+	float:left;
+	margin-top: 6px;
+}
+
+#page-display {
+	position: relative;
+	top: 10px;
+	left:6px;
+}
+
+#page-logo {
+
+	font-family: TeleTekst, Verdana, Arial, sans-serif;
+	color: red; 
+	font-size:2.3em;
+	letter-spacing: 1px;
+}
+
+#paged-content {
+	margin-left: 0px;
+	padding-left: 0px;
+	clear:both;
+}
+
+dd {
+	margin-left: 10px;
+}
+
+h1 {
+
+	font-family: TeleTekst, Verdana, Arial, sans-serif;
+	color: #0000F8;  /*blue*/
+	letter-spacing: 1px;
+}
+
+h2 {
+
+	font-family: TeleTekst, Verdana, Arial, sans-serif;
+	color: #FFFF00; /*yellow */
+	letter-spacing: 1px;
+}
+
+h2 {
+
+	font-family: TeleTekst, Verdana, Arial, sans-serif;
+	color: #FFFF00; /*yellow */
+	letter-spacing: 1px;
+}
+
+body {
+
+	font-family: ModeSeven, Verdana, Arial, sans-serif;
+	background-color:black;
+	color: white;
+}
